@@ -1,6 +1,7 @@
 import streamlit as st
 a="KA 06 1234"
 b="72.5"
+st.set_page_config(layout="wide")
 st.html("<h1 style='font-size:100px;text-align:center;background-color:#04336b;border-radius:20px;'>Emi-tech</h1>")
 st.subheader("Number Plate")
 st.write(a)
