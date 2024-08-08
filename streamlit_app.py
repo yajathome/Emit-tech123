@@ -8,7 +8,7 @@ st.divider()
 st.subheader("Aqi level")
 st.write(b)
 st.markdown('''<style>
-                .st-emotion-cache-1v1dp7g p {
+                .st-emotion-cache-1sno8jx p p {
                     word-break: break-word;
                     font-size: 90px;
                     }
