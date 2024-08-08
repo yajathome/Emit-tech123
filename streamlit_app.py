@@ -18,16 +18,16 @@ st.markdown('''<style>
                     }
             </style>''',unsafe_allow_html=True)
 a=st.button("picture")
-if a:
-  cam = cv2.VideoCapture(0)
-  if not cam.isOpened():
-      print("Error: Could not open camera.")
-      exit()
-  result, image = cam.read()
-  if result:
-      cv2.imshow("GeeksForGeeks", image)
-      cv2.imwrite("GeeksForGeeks.png", image)
-      cv2.waitKey(0)
-      cv2.destroyAllWindows()
-  else:
-      print("No image detected. Please try again.")
+#####if a:
+  #cam = cv2.VideoCapture(0)
+  #if not cam.isOpened():
+    #  print("Error: Could not open camera.")
+   #   exit()
+  #result, image = cam.read()
+  #if result:
+      #cv2.imshow("GeeksForGeeks", image)
+      #cv2.imwrite("GeeksForGeeks.png", image)
+      #cv2.waitKey(0)
+      #cv2.destroyAllWindows()
+  #else:
+      #print("No image detected. Please try again.")
